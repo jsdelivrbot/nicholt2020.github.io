@@ -1,0 +1,80 @@
+{
+  "name": "TeamOne",
+  "displayName": "Team One",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && cordova run ios && npm run bundle",
+    "bundle": "jspm bundle-sfx www/app/main.js www/dist/bundle.js --inline-source-maps --source-map-contents",
+    "tsc": "tsc"
+  },
+  "author": "Tychell Nichols",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@angular/common": "2.2.0",
+    "@angular/compiler": "2.2.0",
+    "@angular/core": "2.2.0",
+    "@angular/forms": "2.2.0",
+    "@angular/http": "2.2.0",
+    "@angular/platform-browser": "2.2.0",
+    "@angular/platform-browser-dynamic": "2.2.0",
+    "@angular/router": "3.2.0",
+    "@angular/upgrade": "2.2.0",
+    "angular-in-memory-web-api": "0.1.15",
+    "cordova-android": "^7.0.0",
+    "cordova-browser": "^5.0.3",
+    "cordova-ios": "^4.5.4",
+    "core-js": "2.4.1",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "0.6.25",
+    "cordova-plugin-whitelist": "1",
+    "cordova-plugin-device": "~2.0.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "0.9.34",
+    "@types/node": "6.0.45",
+    "concurrently": "3.0.0",
+    "lite-server": "2.2.2",
+    "typescript": "2.0.3",
+    "systemjs-plugin-text": "0.0.9"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  },
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "@angular/common": "npm:@angular/common@2.2.0",
+      "@angular/compiler": "npm:@angular/compiler@2.2.0",
+      "@angular/core": "npm:@angular/core@2.2.0",
+      "@angular/forms": "npm:@angular/forms@2.2.0",
+      "@angular/http": "npm:@angular/http@2.2.0",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.2.0",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.2.0",
+      "@angular/router": "npm:@angular/router@3.2.0",
+      "@angular/upgrade": "npm:@angular/upgrade@2.2.0",
+      "core-js": "github:zloirock/core-js@2.4.1",
+      "http": "npm:@angular/http@2.2.2",
+      "reflect-metadata": "npm:reflect-metadata@0.1.8",
+      "rxjs": "npm:rxjs@5.0.0-beta.12",
+      "systemjs": "npm:systemjs@0.19.39",
+      "text": "github:systemjs/plugin-text@0.0.9",
+      "ts": "github:frankwallis/plugin-typescript@4.0.16",
+      "zonejs": "npm:zone.js@0.6.25"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@5.8.24",
+      "babel-runtime": "npm:babel-runtime@5.8.24"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+#Thu Jan 11 15:46:24 EST 2018
+base.0=/Users/tnichol3/Desktop/TeamOneNichols/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/tnichol3/Desktop/TeamOneNichols/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "TeamOneBeacons",
+  "short_name": "TeamOneBeacons",
+  "version": "io.cordova.hellocordova",
+  "description": "A simple Cordova app that uses beacons.",
+  "author": "Tychell Nichols",
+  "icons": [],
+  "start_url": "index.html"
+}
